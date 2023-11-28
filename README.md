@@ -32,10 +32,13 @@
 ```javascript
 // first install all necessary dependencies
 
-npm i
+$ npm install
 
-// next run
+$ npx hardhat test
 
-npm start
+$ npx hardhat node
 
+$ npx hardhat run ./scripts/deploy.js --network localhost
+
+$ npm run start
 ```
